@@ -1,0 +1,25 @@
+{
+  "name": "autos_api",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/autos.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "chai-http": "^5.1.1",
+    "mocha": "^10.7.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
